@@ -22,4 +22,48 @@ O objetivo do projeto é apresentar uma interface temática inspirada em jogos d
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- Google Fonts
+  - Creepster
+
+---
+
+## 🎨 Tema Visual
+
+O site utiliza uma identidade visual inspirada em jogos de terror, contendo:
+
+- Fundo escuro
+- Detalhes em vermelho
+- Fonte temática de horror
+- Cards para exibição dos jogos
+- Menu lateral de navegação
+
+---
+
+## 🎯 Jogos Apresentados
+
+- Resident Evil 4
+- Silent Hill 2
+- Outlast
+- Dead Space
+
+---
+
+## 👩‍💻 Desenvolvedora
+
+Yasmin Alves
+
+---
+## Objetivo
+
+Desenvolver uma página web utilizando HTML e CSS para praticar conceitos de:
+
+- Estruturação de páginas com HTML5
+- Estilização com CSS3
+- Layout utilizando Flexbox
+- Navegação entre páginas
+- Criação de interfaces temáticas
+- Organização de arquivos de um projeto web
