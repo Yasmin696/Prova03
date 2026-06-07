@@ -2,58 +2,67 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
-    <meta name="description" content="Aula 18 - Exercício 02" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aula 18 - Exercício 02">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Yasmin Alves">
     <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
-    <title>Página produto</title>
+    <title>Página Produto</title>
+</head>
 <body>
-    <div class="sidebar">
-        <div class="logo-area">
-            <h1 class="logo">Nightmare Games</h1>
-            <p class="slogan">Onde o medo ganha vida</p>
+    <header>
+        <div class="sidebar">
+            <div class="logo-area">
+                <h1 class="logo">Nightmare Games</h1>
+                <p class="slogan">Onde o medo ganha vida</p>
+            </div>
+            <nav>
+                <a href="index.html">👻 Início</a>
+                <a href="produto.html">👻 Jogos</a>
+                <a href="login.html">👻 Login</a>
+                <a href="new.html">👻 Cadastro</a>
+            </nav>
         </div>
-    <nav>
-        <a href="index.html">👻 Início</a>
-        <a href="produto.html">👻 Jogos</a>
-        <a href="login.html">👻 Login</a>
-        <a href="new.html">👻 Cadastro</a>
-    </nav>
-    </div>
-    <div class="main">
-        <h1 class="titulo-pagina">Catálogo de Jogos</h1>
-        <div class="cards">
-            <div class="card">
-                <img src="img/resident.png">
-                <h3>Resident Evil 4</h3>
-                <p>R$ 199,90</p>
-                <button>Comprar</button>
-                <a class="saiba-mais" href="https://store.steampowered.com/app/2050650/Resident_Evil_4/" target="_blank">Saiba mais</a>
-        </div>
-        <div class="card">
-            <img src="img/silent_hill.png">
-            <h3>Silent Hill 2</h3>
-            <p>R$ 249,90</p>
-            <button>Comprar</button>
-            <a class="saiba-mais" href="https://store.steampowered.com/app/2124490/SILENT_HILL_2/" target="_blank">Saiba mais</a>
-        </div>
-        <div class="card">
-            <img src="img/outlast.png">
-            <h3>Outlast</h3>
-            <p>R$ 59,90</p>
-            <button>Comprar</button>
-            <a class="saiba-mais" href="https://store.steampowered.com/app/238320/Outlast/" target="_blank">Saiba mais</a>
-        </div>
-        <div class="card">
-            <img src="img/dead-space.png">
-            <h3>Dead Space</h3>
-            <p>R$ 229,90</p>
-            <button>Comprar</button>
-            <a class="saiba-mais" href="https://store.steampowered.com/developer/DeadSpace" target="_blank">Saiba mais</a>
-        </div>
-    </div>
+    </header>
+    <main class="main">
+        <article>
+            <h1 class="titulo-pagina">Catálogo de Jogos</h1>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/resident.png" alt="Resident Evil 4">
+                    <h3>Resident Evil 4</h3>
+                    <p>R$ 199,90</p>
+                    <button>Comprar</button>
+                    <a class="saiba-mais" href="https://store.steampowered.com/app/2050650/Resident_Evil_4/" target="_blank">Saiba mais</a>
+                </div>
+                <div class="card">
+                    <img src="img/silent_hill.png" alt="Silent Hill 2">
+                    <h3>Silent Hill 2</h3>
+                    <p>R$ 249,90</p>
+                    <button>Comprar</button>
+                    <a class="saiba-mais" href="https://store.steampowered.com/app/2124490/SILENT_HILL_2/" target="_blank">Saiba mais</a>
+                </div>
+                <div class="card">
+                    <img src="img/outlast.png" alt="Outlast">
+                    <h3>Outlast</h3>
+                    <p>R$ 59,90</p>
+                    <button>Comprar</button>
+                    <a class="saiba-mais" href="https://store.steampowered.com/app/238320/Outlast/" target="_blank">Saiba mais</a>
+                </div>
+                <div class="card">
+                    <img src="img/dead-space.png" alt="Dead Space">
+                    <h3>Dead Space</h3>
+                    <p>R$ 229,90</p>
+                    <button>Comprar</button>
+                    <a class="saiba-mais" href="https://store.steampowered.com/developer/DeadSpace" target="_blank">Saiba mais</a>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2026 Nightmare Games - Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
