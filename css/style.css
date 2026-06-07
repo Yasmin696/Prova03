@@ -1,0 +1,231 @@
+/*Para configurar todos os elementos da página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/*configura o body*/
+body{
+    background: #0b0b0b;
+    color: white;
+}
+/*meno da lateral*/
+/*barra lateral*/
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background: #111;
+    border-right: 2px solid #8b0000;
+    padding: 30px;
+}
+/*logo do site*/
+.logo{
+    font-family: 'Creepster', cursive;
+    font-size: 40px;
+    color: #c1121f;
+    margin-bottom: 40px;
+}
+/*para os liks das outras páginas*/
+.sidebar nav{
+    display: flex;
+    flex-direction: column;
+}
+/*estilo dos links*/
+.sidebar nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: .3s;
+}
+/*efeito quando passar o mouse*/
+.sidebar nav a:hover{
+    background: #8b0000;
+}
+/*conteúdo príncipal*/
+.main{
+    margin-left: 270px;
+    padding: 40px;
+}
+/*banner príncipal*/
+.hero{
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 20px;
+}
+/*título do banner*/
+.hero h1{
+    font-size: 60px;
+    font-family: 'Creepster', cursive;
+}
+/*texto do banner*/
+.hero p{
+    margin: 20px 0;
+    font-size: 20px;
+}
+/*para o botão*/
+.btn{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    background: #8b0000;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+/*a parte onde estão os jogos*/
+.cards{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+/*para cada jogo individualmente*/
+.card{
+    width: 250px;
+    background: #151515;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #8b0000;
+    transition: .3s;
+}
+/*efeito quando passar o mouse por cima*/
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #c1121f;
+}
+/*para a imagem do jogo*/
+.card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+/*título do jogo*/
+.card h3{
+    padding: 10px;
+}
+/*descrição do jogo*/
+.card p{
+    padding: 0 10px;
+}
+/*preço do jogo*/
+.card span{
+    display: block;
+    padding: 10px;
+    color: #c1121f;
+    font-weight: bold;
+}
+/*botão do jogo*/
+.card button{
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background: #8b0000;
+    color: white;
+    cursor: pointer;
+}
+/*titulo usando uma letra assustadora*/
+.titulo-pagina{
+    font-family: 'Creepster', cursive;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+/*login*/
+/*container do formulário de login*/
+.login-form{
+    width: 450px;
+    margin: 50px auto;
+    background: #151515;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #8b0000;
+    box-shadow: 0 0 15px rgba(139,0,0,0.4);
+}
+/*para o login*/
+.slogan-login{
+    text-align: center;
+    color: #999;
+    margin-bottom: 30px;
+}
+/*titulo de login*/
+.login-form h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+/*campos de preenchimento*/
+.login-form input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #1a1a1a;
+    color: white;
+    border: 1px solid #8b0000;
+    border-radius: 8px;
+}
+/*para o botão de entrar*/
+.login-form button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #8b0000;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/*para o botão de criar conta*/
+.btn-secundario{
+    background: #333 !important;
+}
+/*cadastro*/
+/*containner de cadastro*/
+.cadastro-container{
+    max-width: 500px;
+    margin: 50px auto;
+}
+/*campos em colunas*/
+.cadastro-container form{
+    display: flex;
+    flex-direction: column;
+}
+/*campos de entrada de dados e seleção de dados*/
+.cadastro-container input, .cadastro-container select{
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #1a1a1a;
+    color: white;
+    border: 1px solid #8b0000;
+}
+/*para o botão de criar conta*/
+.cadastro-container button{
+    padding: 15px;
+    background: #8b0000;
+    border: none;
+    color: white;
+}
+/*Estilo da parte de produto saiba mais*/
+.saiba-mais{
+    display: block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
